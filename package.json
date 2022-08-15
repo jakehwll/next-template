@@ -1,0 +1,37 @@
+{
+  "name": "thankyounext",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "yarn tsc",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "husky-init": "^7.0.0",
+    "next": "^12.2.5",
+    "postcss": "^8.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "scheduler": "^0.20.2",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.12",
+    "@types/react": "17.0.37",
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7",
+    "husky": "^7.0.0",
+    "typescript": "4.5.3"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 80
+  }
+}
