@@ -4,19 +4,19 @@ This is a glorified fork of [`steve-frenzel/thankyounext`](https://github.com/st
 
 ## Features
 
-## Libraries
+### Libraries
 
 - [`next.js@12.2`](https://nextjs.org/blog/next-12-2)
 - [`styled-components`](https://styled-components.com/docs/basics)
 
-## Components
+### Components
 
 - `components/Meta.tsx` An SEO-ready component to throw on your pages.
 - `pages/_document.tsx` A wrapper element for the `<html>` layout of your site.
 - `pages/_error.tsx` A bespoke error page template for Next.JS.
 - `pages/404.tsx` A page-not-found error page template for Next.JS.
 
-## Configurations
+### Configurations
 
 - `.vscode/settings.json` for auto code-linting and pretty on file save.
 - [Typescript](https://www.typescriptlang.org/)
